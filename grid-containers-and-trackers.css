@@ -3,40 +3,38 @@
     font-size: 20px;
 }
 
-/* .two-fixed-column-container{
-    grid-template-columns: 200px 300px;
+/* auto-track-sizing */
+
+.two-equal-column-container {
+    grid-template-columns: auto auto;
 }
 
-.two-fixed-row-container{
+.two-equal-row-container {
+    height: 300px;
     grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 300px;
+    grid-template-rows: auto auto;
 }
 
-.two-percentage-column-container{
-    grid-template-columns: 30% 50%;
+.three-equal-column-container {
+    grid-template-columns: auto auto auto;
 }
 
-.two-percentage-row-container {
-    height: 350px;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 30% 50%;
-} */
-
-
-.two-em-column-container {
-    grid-template-columns: 10em 5em;
+.three-equal-row-container {
+    height: 300px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
 }
 
-.two-em-row-container {
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 5em 6em;
+.four-equal-column-container {
+    grid-template-columns: auto auto auto auto;
 }
 
-.two-rem-column-container {
-    grid-template-columns: 10rem 20rem;
+.fixed-auto-column-container {
+    grid-template-columns: 200px auto ;
 }
 
-.two-rem-row-container {
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 8rem 12rem;
+
+.fixed-one-column-larger-container {
+    width: 120px;
+    grid-template-columns: auto auto;
 }

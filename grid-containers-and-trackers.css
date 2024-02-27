@@ -3,40 +3,28 @@
     font-size: 20px;
 }
 
-/* .two-fixed-column-container{
-    grid-template-columns: 200px 300px;
+.two-farction-column-container{
+    grid-template-columns: 1fr 1fr ;
 }
 
-.two-fixed-row-container{
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 300px;
+.two-farction-row-container{
+    height : 300px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
 }
 
-.two-percentage-column-container{
-    grid-template-columns: 30% 50%;
+.one-two-farction-column-container {
+    grid-template-columns: 1fr 2fr;
 }
 
-.two-percentage-row-container {
-    height: 350px;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 30% 50%;
-} */
-
-
-.two-em-column-container {
-    grid-template-columns: 10em 5em;
+.one-three-farction-column-container {
+    grid-template-columns: 1fr 3fr;
 }
 
-.two-em-row-container {
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 5em 6em;
+.two-four-farction-column-container {
+    grid-template-columns: 2fr 4fr;
 }
 
-.two-rem-column-container {
-    grid-template-columns: 10rem 20rem;
-}
-
-.two-rem-row-container {
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 8rem 12rem;
+.one-fixed-width-two-farction-column-container {
+    grid-template-columns: 100px 1fr 2fr;
 }

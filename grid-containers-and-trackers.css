@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    font-size: 20px;
+}
+
+/* .two-fixed-column-container{
+    grid-template-columns: 200px 300px;
+}
+
+.two-fixed-row-container{
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 300px;
+}
+
+.two-percentage-column-container{
+    grid-template-columns: 30% 50%;
+}
+
+.two-percentage-row-container {
+    height: 350px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 30% 50%;
+} */
+
+
+.two-em-column-container {
+    grid-template-columns: 10em 5em;
+}
+
+.two-em-row-container {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 5em 6em;
+}
+
+.two-rem-column-container {
+    grid-template-columns: 10rem 20rem;
+}
+
+.two-rem-row-container {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 8rem 12rem;
+}
